@@ -85,7 +85,7 @@ export function OtpForm({
       className="flex flex-col gap-4 mt-4"
       onSubmit={form.handleSubmit(onSubmit)}
     >
-      <CodeField form={form} />
+      <CodeField form={form} required={false} />
       <div
         className={`flex flex-row justify-between items-center text-sm font-semibold text-blue-highlight ${isDisabled ? "opacity-50" : ""}`}
       >
