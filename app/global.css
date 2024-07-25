@@ -1,0 +1,349 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  font-weight: 500;
+}
+
+.ant-table-thead tr th {
+  color: #626c76 !important;
+  font-size: 12px !important;
+}
+
+.disabled-row {
+  opacity: 20%;
+  pointer-events: none;
+}
+
+.ant-spin {
+  max-height: 90% !important;
+}
+
+.ant-table-pagination,
+.ant-spin-container {
+  background: #fff !important;
+}
+
+.ant-spin-nested-loading {
+  background: #d7ecff !important;
+}
+
+.ant-progress-steps-item {
+  min-width: 2px !important;
+  height: 12px !important;
+  display: flex !important;
+  width: auto !important;
+  flex: 1 !important;
+}
+
+.ant-progress-steps-outer .ant-progress-steps-item:last-child {
+  margin-right: 0;
+}
+
+.borderedSelect {
+  border-radius: 12px !important;
+  background-color: white;
+  border-color: #eaf0f5 !important;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.borderedSelect:hover {
+  border-color: #3b63b8 !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #3b63b8 !important;
+  border-color: #3b63b8 !important;
+}
+
+.passwordStrength {
+  max-width: 240px;
+}
+.passwordStrength > div > div:nth-child(odd) {
+  height: 4px !important;
+  border-radius: 4px !important;
+  background-color: #eaf0f5;
+}
+
+.ant-dropdown-menu-item-selected *:not(.exception-class) {
+  color: #000 !important;
+}
+
+.custom-input {
+  width: 224px !important;
+  transition: width 0.3s ease !important;
+}
+
+.custom-input.focused {
+  width: 470px !important;
+}
+
+.ant-pagination-item-active {
+  background: #ecf7ff !important;
+  font-size: 14px !important;
+  border-radius: 12px !important;
+  width: 32px !important;
+  height: 32px !important;
+  border: 0px !important;
+}
+
+.ant-pagination-options-size-changer {
+  width: 80px !important;
+  border-radius: 12px !important;
+  box-shadow: 0px 0px 4px - 6px #e0eaf199 inset !important;
+}
+
+.ant-pagination-options-size-change:hover {
+  border-color: #3b63b8 !important;
+}
+.ant-pagination-item-active a {
+  color: #3b63b8 !important;
+}
+
+.ant-pagination-item {
+  font-size: 14px !important;
+  border-radius: 12px !important;
+  width: 32px !important;
+  height: 32px !important;
+  border: 0px !important;
+}
+
+.ant-pagination-item:not(.ant-pagination-item-active) a {
+  color: #626c76 !important;
+}
+.ant-pagination-options-size-changer div {
+  color: #626c76 !important;
+}
+
+.ant-pagination-total-text {
+  font-size: 14px !important;
+  color: #97a1ab !important;
+  position: absolute !important;
+  margin-right: 0px !important;
+  right: 24px !important;
+}
+.ant-pagination-options {
+  position: absolute !important;
+  left: 24px !important;
+  margin-left: 0px !important;
+}
+
+.ant-select-selector {
+  border-radius: 12px !important;
+  background-color: white;
+  border: 1px solid #eaf0f5 !important;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.ant-pagination-next,
+.ant-pagination-prev {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ant-pagination-next.ant-pagination-disabled svg path,
+.ant-pagination-prev.ant-pagination-disabled svg path {
+  stroke: #97a1ab !important;
+}
+
+.ant-select-suffix svg path {
+  fill: #3b63b8 !important;
+}
+
+.ant-select-item-empty svg {
+  display: none !important;
+}
+
+.svg-white_fill path {
+  fill: #fff;
+}
+
+.svg-white_fill_disable path {
+  fill: #626c76;
+}
+
+.svg-black_fill path {
+  stroke: #000;
+}
+
+@media (max-width: 1024px) {
+  .ant-pagination-total-text {
+    display: none !important;
+  }
+}
+
+.svg-disabled {
+  fill: #c3ddf0;
+}
+
+.svg-disabled g {
+  stroke: #c3ddf0;
+}
+
+/* ===== Tooltip GLOBAL ====== */
+[data-global-tooltip] {
+  position: relative;
+}
+
+[data-global-tooltip]::before {
+  color: #262a39;
+  content: attr(data-global-tooltip);
+  font-size: 10px;
+  padding: 4px 12px;
+  position: absolute;
+  bottom: calc(100% + 0.25rem);
+  transform: translate(0, 150%);
+  white-space: nowrap;
+  opacity: 0;
+  line-height: normal;
+  border-radius: 5px;
+  background: #d7ecff;
+  box-shadow: 0px 4px 10px 0px rgba(38, 51, 77, 0.15);
+  backdrop-filter: blur(7px);
+  z-index: -1;
+}
+
+[data-global-tooltip]:hover::before {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transition:
+    opacity 500ms ease-in-out,
+    transform 200ms ease-in-out;
+  transition-delay: 1s;
+  transform: translate(0, 250%);
+}
+
+/* Basic editor styles */
+.tiptap :first-child {
+  margin-top: 0;
+  /* List styles */
+}
+.tiptap ul, .tiptap ol {
+  padding: 0 1rem;
+  margin: 1.25rem 1rem 1.25rem 0.4rem;
+}
+.tiptap ul li p, .tiptap ol li p {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  /* Heading styles */
+}
+.tiptap h1, .tiptap h2, .tiptap h3, .tiptap h4, .tiptap h5, .tiptap h6 {
+  line-height: 1.1;
+  margin-top: 2.5rem;
+  text-wrap: pretty;
+}
+.tiptap h1, .tiptap h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.tiptap h1 {
+  font-size: 1.4rem;
+}
+.tiptap h2 {
+  font-size: 1.2rem;
+}
+.tiptap h3 {
+  font-size: 1.1rem;
+}
+.tiptap h4, .tiptap h5, .tiptap h6 {
+  font-size: 1rem;
+  /* Code and preformatted text styles */
+}
+.tiptap code {
+  background-color: #cccccc;
+  border-radius: 0.4rem;
+  color: #000000;
+  font-size: 0.85rem;
+  padding: 0.25em 0.3em;
+}
+.tiptap pre {
+  background: var(--black);
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-family: 'JetBrainsMono', monospace;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+}
+.tiptap pre code {
+  background: none;
+  color: inherit;
+  font-size: 0.8rem;
+  padding: 0;
+}
+.tiptap blockquote {
+  border-left: 3px #cccccc;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+}
+.tiptap hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 2rem 0;
+  /* Placeholder */
+}
+.tiptap .is-empty::before {
+  color: #cccccc;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+  /* Details */
+}
+.tiptap .details {
+  display: flex;
+  gap: 0.25rem;
+  margin: 1.5rem 0;
+  border: 1px solid #cccccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.tiptap .details summary {
+  font-weight: 700;
+}
+.tiptap .details > button {
+  align-items: center;
+  background: transparent;
+  border-radius: 4px;
+  display: flex;
+  font-size: 0.625rem;
+  height: 1.25rem;
+  justify-content: center;
+  line-height: 1;
+  margin-top: 0.1rem;
+  padding: 0;
+  width: 1.25rem;
+}
+.tiptap .details > button:hover {
+  background-color: #cccccc;
+}
+.tiptap .details > button::before {
+  content: '\25B6';
+}
+.tiptap .details.is-open > button::before {
+  transform: rotate(90deg);
+}
+.tiptap .details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.tiptap .details > div > [data-type="detailsContent"] > :last-child {
+  margin-bottom: 0.5rem;
+}
+.tiptap .details .details {
+  margin: 0.5rem 0;
+}

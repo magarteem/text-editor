@@ -1,0 +1,12 @@
+pipelines:
+  branches:
+    '{dev}':
+      - step:
+          name: DeployDev
+          runs-on: 
+            - 'ssg.dev'
+            - 'linux.shell'
+            - 'self.hosted'
+          script:
+            - sudo docker system prune -f
+            - sudo COMPOSE_HTTP_TIMEOUT=500 docker-compose -f docker-compose.develop.yml up -d --build

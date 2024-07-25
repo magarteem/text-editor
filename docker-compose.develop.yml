@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  prod-web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      args:
+        - NEXT_PUBLIC_TIPTAP_PRO_TOKEN=MPhwxisLMnmMYAH+dDSZyNQWXBD/cEfnJQnbO/SVlFA6TjOZ1wIJGbFzt7S5aifJ
+    restart: always
+    volumes:
+      - .:/app/src
+      - ./public:/app/public
+    ports:
+      - "3003:3003"
+    environment:
+      - NODE_ENV=development
+      - PORT=3003
+      - NEXT_PUBLIC_TIPTAP_PRO_TOKEN=MPhwxisLMnmMYAH+dDSZyNQWXBD/cEfnJQnbO/SVlFA6TjOZ1wIJGbFzt7S5aifJ
+    networks:
+      - nextjs_network
+
+networks:
+  nextjs_network:
+    driver: bridge

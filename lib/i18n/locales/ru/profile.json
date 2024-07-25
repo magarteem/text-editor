@@ -1,0 +1,681 @@
+{
+  "mainTabs": {
+    "profile": "Профиль",
+    "progress": "Прогресс",
+    "docs": "Документы",
+    "notification": "Уведомления"
+  },
+  "blocks": {
+    "blockExams": {
+      "title": "Экзамены"
+    },
+    "blockEducation": {
+      "title": "Образование"
+    }
+  },
+  "signIn": {
+    "enter": "Войти",
+    "or": "или",
+    "google": "Продолжить с Google",
+    "email": "Продолжить с почтой",
+    "emailEnter": "Введите почту",
+    "passwordEnter": "Введите пароль",
+    "remember": "Запомнить",
+    "noAcc": "Нет аккаунта?",
+    "signUp": "Зарегистрироваться",
+    "continue": "Продолжить",
+    "password": "Пароль",
+    "passwordErr": "Неправильный пароль",
+    "passwordErrMin": "Пароль должен содержать не менее 8 символов.",
+    "passwordErrMax": "Пароль не должен превышать 64 символа.",
+    "passwordErrConfirm": "Пароль не совпадает",
+    "passwordErrExist": "Такой пароль уже использовался ранее",
+    "codeErr": "Неправильный код подтверждения",
+    "emptyErr": "Поле не должно быть пустым",
+    "emailErr": "Почта не найдена",
+    "return": "Вернуться",
+    "getHelp": "Получить помощь",
+    "otp": {
+      "code": "Одноразовый код на",
+      "enterCode": "Введите код подтверждения, который был отправлен вам на",
+      "codeNotExist": "Код не пришел?",
+      "send": "Отправить снова",
+      "useAnother": "Использовать другой способ"
+    },
+    "forgotPass": {
+      "title": "Создание нового пароля",
+      "label": "Забыл пароль",
+      "codeTitle": "Введите код подтверждения, который был отправлен на",
+      "code": "Код",
+      "codePlaceholder": "Введите код из письма",
+      "passRec": "Создайте новый пароль. Минимум 8 символов. Используйте прописные и строчные буквы, цифры и специальные символы.",
+      "rec": {
+        "title": "Пароль должен содержать:",
+        "min": "Минимум 8 символов",
+        "letter": "Прописные и строчные буквы",
+        "number": "Число",
+        "symbol": "Специальный символ (!, * и т. д.)"
+      },
+      "newPass": "Новый пароль",
+      "createPass": "Придумайте пароль",
+      "strongPass": "Надежность Пароля",
+      "confirmPass": "Подтверждение пароля",
+      "passPlaceholderRepeat": "Повторите пароль",
+      "save": "Сохранить"
+    }
+  },
+  "signUp": {
+    "title": "Регистрация",
+    "name": "Имя",
+    "namePlaceholder": "Введите Имя",
+    "nameErr": "Введите имя",
+    "lastName": "Фамилия",
+    "lastNamePlaceholder": "Введите Фамилию",
+    "lastNameErr": "Введите фамилию",
+    "email": "Почта",
+    "emailPlaceholder": "Введите адрес почты",
+    "emailErr": "Введите адрес почты",
+    "emailErrExist": "Этот адрес электронной почты уже используется",
+    "password": "Пароль",
+    "passwordPlaceholder": "Придумайте пароль",
+    "passwordErr": "Введите пароль",
+    "passwordErrMatch": "Пароли не совпадают",
+    "passwordErrLeak": "Такой пароль найден в списке слитых и является небезопасным. Пожалуйста, укажите другой пароль",
+    "passwordErrWeak": "Надежность пароля слишком мала",
+    "unknownErr": "Неизвестная ошибка",
+    "tooManyRequests": "Вы отправили на сервер слишком много запросов. Попробуйте через 5 мин.",
+    "strongPass": "Надежность Пароля",
+    "confirmPass": "Подтверждение пароля",
+    "confirmPassPlaceholder": "Повторите пароль",
+    "reg": "Зарегистрироваться",
+    "haveAcc": "Уже есть аккаунт?",
+    "enter": "Войти",
+    "allowRef": "Регистрируясь, вы соглашаетесь с",
+    "and": "и",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "service": "Terms of Service",
+    "return": "Вернуться",
+    "continue": "Продолжить",
+    "pass": {
+      "title": "Пароль должен содержать:",
+      "min": "Минимум 8 символов",
+      "letter": "Прописные и строчные буквы",
+      "number": "Число",
+      "symbol": "Специальный символ (!, * и т. д.)",
+      "streignt": {
+        "weak": "Слабый",
+        "okay": "Средний",
+        "good": "Хороший",
+        "strong": "Сильный"
+      }
+    },
+    "verification": {
+      "title": "Верификация",
+      "desc": "Введите код подтверждения, который был отправлен вам на",
+      "code": "Код",
+      "codePlaceholder": "Введите код из письма",
+      "codeErr": "Неправильный код подтверждения"
+    },
+    "greeting": {
+      "title": "Спасибо за регистрацию!",
+      "desc": "Поздравляем! Вы создали аккаунт в SelfStartGlobal. Сейчас вы будете перенаправлены на платформу."
+    }
+  },
+  "createNewPAssword": {
+    "title": "Создание нового пароля",
+    "placeholderCurrentPassword": "Введите старый пароль",
+    "updatePassErr": "Проверка паролей не удалась"
+  },
+  "changeEmail": {
+    "title": "Почта"
+  },
+  "menuItems": {
+    "tasks": "Задачи",
+    "clients": "Клиенты",
+    "callendar": "Календарь",
+    "notifications": "Уведомления",
+    "team": "Команда",
+    "docs": "Контроль качества",
+    "settings": "Настройки",
+    "projects": "Проекты",
+    "reports": "Отчеты"
+  },
+  "widgets": {
+    "ApplicationDetails": {
+      "title": "Детали поступления",
+      "typeOfService": "Вид услуги",
+      "countryOfEntry": "Страна поступления",
+      "degree": "Степень",
+      "numberOfTopUniversities": "Количество ТОП ВУЗов",
+      "periodOfCooperation": "Период сотрудничества",
+      "yearOfEnrollment": "Год поступления",
+      "program": "Программа",
+      "numberOfUniversities": "Количество ВУЗов",
+      "emptyDatePicker": "Введите дату"
+    },
+    "recentDocs": {
+      "title": "Последние документы",
+      "footer": "Перейти в документы"
+    },
+    "chances": {
+      "none": "Здесь будут показаны ваши  шансы на поступление",
+      "noneAdmin": "Ввведите шансы клиента",
+      "title": "Шансы",
+      "noneClient": "Здесь будут показаны ваши шансы на поступление",
+      "tooltip": "Шансы поступить на стипендию будут увеличиваться по мере выполнения этапов, сдачи экзаменов  и ваших активностей."
+    },
+    "progress": {
+      "none": "Здесь будет показан прогресс прохождения обучения",
+      "active": "Активные этапы",
+      "title": "Прогресс",
+      "noneClient": "Здесь будет показан прогресс прохождения обучения"
+    },
+    "chosenUniversities": {
+      "title": "Выбранные вузы",
+      "add": "Добавить университет",
+      "none": "Добавить учебное заведение",
+      "top": "ТОП",
+      "error": "Поле не должно быть пустым"
+    },
+    "exams": {
+      "title": "Экзамены",
+      "exam": "Экзамен",
+      "result": "Результат",
+      "deadline": "Дедлайн",
+      "add": "Добавить экзамен",
+      "none": "Добавить экзамен",
+      "error": "Поле не должно быть пустым",
+      "errorTwo": "Заполните одно из полей",
+      "other": "Другой"
+    },
+    "education": {
+      "title": "Образование",
+      "add": "Добавить учебное заведение",
+      "none": "Добавить учебное заведение",
+      "specialization": "Специализация",
+      "GPA": "GPA",
+      "grade": "Грейд",
+      "classNum": "№ класса/курса",
+      "graduation": "Год окончания",
+      "country": "Страна",
+      "completed": "Завершено",
+      "education": "Учебное заведение",
+      "error": "Поле не должно быть пустым",
+      "errorCor": "Введите корректное значение",
+      "grades": {
+        "Schoolboy": "Школьник",
+        "CollegeStudent": "Студент колледжа",
+        "Bachelor": "Бакалавр",
+        "Master": "Магистр",
+        "GraduateStudent": "Аспирант"
+      }
+    },
+    "curator": {
+      "title": "Куратор",
+      "none": "Назначить куратора",
+      "add": "Поменять визитку"
+    }
+  },
+  "clients": {
+    "filter": "Фильтры",
+    "sort": "Сортировка",
+    "create": "Создать",
+    "upload": "Загрузить",
+    "hidden": "Скрыть",
+    "all": "Показать все",
+    "modalRemove": {
+      "desc": "Вы уверены что хотите удалить аккаунт"
+    },
+    "filters": {
+      "title": "Фильтры",
+      "close": "Закрыть",
+      "stage": "Этап",
+      "typeOfService": "Вид услуги",
+      "country": "Страна постулпения",
+      "grade": "Степень",
+      "search": "Найти по имени",
+      "yearOfEnrollment": "Год поступления",
+      "countryOfResidence": "Страна проживания",
+      "typeOfClient": "Классификация кандидата",
+      "exams": "Сданные экзамены",
+      "templateUsed": "Используемый шаблон",
+      "status": "Статус этапа",
+      "statusErr": "Поле статус является обязательным",
+      "сompleted": "Работа завершена",
+      "statuses": {
+        "InProgress": "В работе",
+        "InProgressUpd": "В процессе",
+        "NotStarted": "Не начат",
+        "Completed": "Завершен",
+        "Skipped": "Пропущен"
+      },
+      "examsType": {
+        "TOEFL": "TOEFL",
+        "IELTS": "IELTS",
+        "SAT": "SAT",
+        "GRE": "GRE",
+        "GMAT": "GMAT",
+        "other": "Другой"
+      },
+      "sort": {
+        "dateCreate": "Дате создания профиля",
+        "dateStart": "Дате начала работ",
+        "dateAnd": "Дате окончания работ",
+        "countFinish": "Количеству завершенных этапов в воркфлоу",
+        "chance": "Шансу поступить на стипендию",
+        "year": "Году поступления",
+        "grade": "Степени поступления"
+      },
+      "countOfUniversities": "Количество ВУЗов",
+      "topUniversities": "ТОП ВУЗы",
+      "curator": "Куратор",
+      "clearFilters": "Сбросить фильтры",
+      "applyFilters": "Применить фильтры"
+    },
+    "table": {
+      "columns": {
+        "client": "Клиент",
+        "type": "Тип",
+        "country": "Страна",
+        "year": "Год",
+        "degree": "Степень",
+        "typeOfService": "Вид услуги",
+        "curator": "Куратор",
+        "terms": "Сроки",
+        "progress": "Прогресс",
+        "chances": "Шансы",
+        "program": "Программа",
+        "universities": "ВУЗы",
+        "periodOfСooperation": "Период сотрудничества"
+      },
+      "defaultValues": {
+        "type": "Не указано",
+        "country": "Не выбрано",
+        "degree": "Не выбрана",
+        "curator": "Не выбран",
+        "progress": "Прогресс",
+        "chances": "-",
+        "program": "Не указано",
+        "universities": "-",
+        "periodOfСooperation": "Не выбран"
+      },
+      "emptyTable": "Нет совпадающих результатов"
+    },
+    "types": {
+      "default": "Не указано",
+      "questionable": "Не указано",
+      "strong": "Сильный",
+      "weak": "Слабый"
+    },
+    "degree": {
+      "bachelor": "Бакалавр",
+      "graduateStudent": "Аспирант",
+      "master": "Магистр",
+      "questionable": "Не указано"
+    },
+    "typeOfService": {
+      "FullSupport": "ПС",
+      "Mentoring": "М",
+      "PersonalBrand": "ЛБ"
+    },
+    "typeOfServiceFull": {
+      "FullSupport": "Полное Cопровождение",
+      "Mentoring": "Менторинг",
+      "PersonalBrand": "Личный Бренд"
+    },
+    "countries": {
+      "USA": "США",
+      "Canada": "Канада",
+      "UnitedKingdom": "Великобритания",
+      "Netherlands": "Нидерланды",
+      "Italy": "Италия",
+      "Spain": "Испания",
+      "Portugal": "Португалия",
+      "Germany": "Германия",
+      "Austria": "Австрия",
+      "France": "Франция",
+      "Belgium": "Бельгия",
+      "Switzerland": "Швейцария",
+      "NewZealand": "Новая Зеландия",
+      "Australia": "Австралия",
+      "Ireland": "Ирландия",
+      "Sweden": "Швеция",
+      "Denmark": "Дания"
+    },
+    "userForm": {
+      "photo": "Фото",
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "dateOfBirth": "Дата рождения",
+      "cityOfResidence": "Город проживания",
+      "countryOfResidence": "Страна проживания",
+      "citizenship": "Гражданство",
+      "telegram": "Телеграм",
+      "mail": "Почта",
+      "typeOfClient": "Классификация кандидата",
+      "durationOfCallsPlanned": "Время звонков (план)",
+      "durationOfCallsSpent": "Время звонков (факт)",
+      "emailError": "Значение не соответствует формату email",
+      "uploadFormatError": "Неподдерживаемый формат файла. Пожалуйста, выберите файл с расширением .jpg, .jpeg, .png или .img",
+      "uploadValueError": "Размер файла превышает максимальный лимит (3 МБ)"
+    }
+  },
+  "storage": {
+    "table": {
+      "columns": {
+        "name": "Название",
+        "visibility": "Видимость",
+        "status": "Статус",
+        "author": "Автор",
+        "dateOfCreation": "Дата создания"
+      }
+    },
+    "docTypes": {
+      "WorkingWithCurator": "В работе у куратора",
+      "CheckedByTheStrategist": "На проверке у стратега",
+      "ReadyToBeSentToTheClient": "Готово к открытию клиенту",
+      "SentToClient": "Отправлено клиенту"
+    },
+    "create": {
+      "catalog": "Каталог",
+      "documentFile": "Документ из файла",
+      "documentLink": "Документ по ссылке"
+    },
+    "modals": {
+      "accessToDocument": "Доступ к документу должны иметь все причастные люди (или он должен иметь публичный доступ)",
+      "visibleCatalog": "Вы уверены что хотите сделать каталог^не видимым для клиента",
+      "visibleHidden": "Вы уверены, что хотите сделать документ^не видимым для клиента",
+      "visibleShow": "Вы уверены, что хотите сделать документ^видимым для клиента",
+      "modalRemoveDocument": "Вы уверены что хотите удалить документ",
+      "modalRemoveDirectory": "Вы уверены что хотите удалить директорию",
+      "modalRenameDirectory": "Переименовать каталог",
+      "modalRenameDocFile": "Переименовать документ",
+      "visibilityForClient": "Видимость для клиента"
+    },
+    "formText": {
+      "mainTitle": "Документ",
+      "titleFormCreateDirectory": "Создать каталог",
+      "placeholderCatalogName": "Название каталога",
+      "titleFormVisible": "Видимость для клиента",
+      "titleFormCreateDoc": "Создать документ",
+      "placeholderUploadDoc": "Вставте файл или нажмите, чтоб^загрузить",
+      "сannotSendFormats": "Нельзя отправлять форматы",
+      "titleFormDocText": "Описание",
+      "titleFormDocTextStatus": "Статус документа",
+      "titleFormDocType": "Тип документа",
+      "titleFormDocPriority": "Приоритет проверки",
+      "titleFormDocNotSelected": "Не выбран",
+      "titleFormDocOther": "Другие параметры",
+      "titleFormDocStrategist": "Проверяющий стратег",
+      "checkboxFormDocOther": "Связан с ТОП ВУЗом",
+      "placeholderNameDoc": "Название документа",
+      "placeholderLinkDoc": "Ссылка на документ",
+      "curatorDoc": "Куратор",
+      "titleFormDate": "Дата взятия в работу",
+      "placeholderDate": "Введите дату",
+      "placeholderTime": "Введите время",
+      "placeholderQA": "Контроль качества",
+      "placeholderApproved": "Утверждено стратегом",
+      "dateOfСreation": "Дата создания",
+      "author": "Автор",
+      "WeSee": "Видим",
+      "WeDontSee": "Не видим",
+      "NoInformation": "Нет информации",
+      "emptyErr": "Поле не должно быть пустым",
+      "maxCharacters": "Максимум 32 символа",
+      "limitCharacters": "Максимум 2000 символов",
+      "noValidURL": "Не валидный  URL",
+      "fileNotUpload": "Файл не загружен",
+      "uploadProcessing": "Загружено",
+      "notSupportedFileFormat": "Не поддерживаемый формат файла",
+
+      "typeOfDocument": {
+        "NotSelected": "Не выбран",
+        "PersonalBrandOneTime": "Личный бренд (разовый)",
+        "OddsAssessment": "Оценка шансов",
+        "WorkingThroughMotivation": "Проработка мотивации/личной истории",
+        "DevelopmentAdmissionStrategy": "Разработка стратегии по поступлению",
+        "SelectionUniversities": "Подборка университетов",
+        "LetterRecommendationWriting": "Рекомендательное письмо (написание)",
+        "LetterRecommendationCorrection": "Рекомендательное письмо (коррекция)",
+        "ResumeWriting": "Резюме (написание)",
+        "SummaryCorrection": "Резюме (коррекция)",
+        "MotivationLetterWriting": "Мотивационное письмо (написание)",
+        "MotivationLetterCorrection": "Мотивационное письмо (коррекция)",
+        "SupplementalEssayWriting": "Дополнительное эссе (написание)",
+        "AdditionalEssayCorrection": "Дополнительное эссе (коррекция)",
+        "ListActivities": "Список активностей (Common App)",
+        "FinancialAppeal": "Финансовая апелляция",
+        "LetterContinuedInterest": "Letter of Continued Interest ",
+        "Other": "Другое"
+      },
+      "select": {
+        "scanPriority": "Приоритет проверки",
+        "hiringDate": "Дата взятия в работу",
+        "checkingStrategist": "Проверяющий стратег",
+        "qualityControl": "Контроль качества",
+        "ApprovedByStrategist": "Утверждено стратегом",
+        "NoInformation": "Нет информации",
+        "docs": "Документы"
+      },
+      "reviewPriority": {
+        "Standard": "Стандартный",
+        "High": "Высокий"
+      }
+    },
+    "comment": {
+      "title": "Комментарии к документу",
+      "placeholderCommit": "Оставьте важную информацию о документе здесь",
+      "authorCommit": {
+        "administrator": "Администратор",
+        "curator": "Куратор",
+        "client": "Клиент",
+        "strategist": "Стратег",
+        "notFound": "Не указанно"
+      }
+    }
+  },
+  "qa": {
+    "header": {
+      "title": "Документы",
+      "new": "Новые",
+      "workIhave": "В работе у меня",
+      "workForOthers": "В работе у других",
+      "archive": "Архив"
+    },
+    "table": {
+      "emptyTable": "Нет совпадающих результатов",
+      "columns": {
+        "client": "Клиент",
+        "documentType": "Тип документа",
+        "curator": "Куратор",
+        "strategist": "Стратег",
+        "priority": "Приоритет",
+        "clientType": "Тип Клиента",
+        "service": "Услуга",
+        "defaultValues": "Не выбран"
+      }
+    },
+    "filters": {
+      "title": "Фильтры",
+      "close": "Закрыть",
+      "typeOfService": "Вид услуги",
+      "search": "Введите имя",
+      "titleFormDocType": "Тип документа",
+      "statuses": {
+        "InProgress": "В работе",
+        "InProgressUpd": "В процессе",
+        "NotStarted": "Не начат",
+        "Completed": "Завершен",
+        "Skipped": "Пропущен"
+      },
+      "curator": "Куратор",
+      "responsibleStrategist": "Ответственный стратег",
+      "client": "Клиент",
+      "clearFilters": "Сбросить фильтры",
+      "applyFilters": "Применить фильтры"
+    }
+  },
+  "notification": {
+    "header": {
+      "title": "Уведомления",
+      "all": "Все",
+      "deadline": "Дедлайн",
+      "docs": "Документ",
+      "progress": "Прогресс",
+      "onlyUnread": "Показать только непрочитанные"
+    },
+    "table": {
+      "read": "Отметить как непрочитанное",
+      "notRead": "Отметить как прочитанное",
+      "important": "ВАЖНО"
+    }
+  },
+  "wipPage": {
+    "title": "Раздел в разработке",
+    "description": "Для получения дополнительной информации обратитесь к администратору <br /> или менеджеру проекта.",
+    "button": "Вернуться на платформу"
+  },
+  "workflow": {
+    "empty": {
+      "client": {
+        "desc": {
+          "title": "Здесь появится информация о поступлении.",
+          "text": "Чтобы ускорить процесс, добавьте информацию об образовании и результаты экзаменов."
+        },
+        "closed": {
+          "title": "Ваш план поступления уже в процессе подготовления.",
+          "text": "Информация начнет появляться здесь, как только куратор откроет вам первый этап."
+        },
+        "tasks": {
+          "title": "Информация о ваших задачах появится здесь.",
+          "desc": "Пожалуйста, подождите, пока куратор их назначит."
+        },
+        "link": "Анкета для Оценки Шансов"
+      },
+      "curator": {
+        "title": "Шаблон для клиента пока не установлен. ",
+        "text": "Попросите стратега или администратора установить воркфлоу, чтобы начать работу."
+      },
+      "admin": {
+        "placeholder": "Выберите шаблон для дальнейшей работы"
+      }
+    },
+    "modal": {
+      "desc": "Вы уверены что хотите удалить шаблон",
+      "warning": "Это приведет к потере данных"
+    },
+    "choose": "Вы выбираете шаблон",
+    "attention": "Внимание",
+    "allStages": "Все этапы",
+    "visibilityClient": {
+      "stage": "Этап",
+      "status": "Статус",
+      "statuses": {
+        "Completed": "Завершен",
+        "InProgress": "В процессе",
+        "NotStarted": "Не начат",
+        "Skipped": "Пропущен"
+      },
+      "modal": {
+        "start": "Вы уверены что хотите сделать",
+        "end": "видимым для клиента?",
+        "ok": "Сделать видимым"
+      },
+      "deadline": "Дедлайн этапа",
+      "recomendedDate": "рекомендованная дата",
+      "endDate": "завершен",
+      "recomendedDatePlaceholder": "Введите дату окончания",
+      "day": "дня",
+      "dayOne": "день",
+      "days": "дней",
+      "save": "Подтвердить изменения",
+      "cancel": "Отменить изменения"
+    },
+    "tabs": {
+      "materials": "Материалы для использования"
+    },
+    "materials": {
+      "title": "Материалы для использования",
+      "files": "Файлы",
+      "links": "Ссылки на ресурсы",
+      "linkPlaceholder": "Ссылка на ресурс",
+      "namePlaceholder": "Название ресурса",
+      "dragAndDropText": "Вставте файл или нажмите, чтоб",
+      "uploadText": "загрузить."
+    },
+    "tasks": {
+      "clientDescription": "Описание для клиента",
+      "tasks": {
+        "title": "Задачи",
+        "item": "Задача",
+        "add": "Добавить задачу"
+      },
+      "form": {
+        "description": "Описание",
+        "deadline": "Дедлайн",
+        "completed": "Выполнено",
+        "deadlineRequired": "Поле дедлайн не может быть пустым",
+        "descriptionRequired": "Поле описание не может быть пустым"
+      }
+    },
+    "comments": {
+      "title": "Комментарии к этапу",
+      "placeholderCommit": "Оставьте важную информацию о прохождении этапа клиентом здесь"
+    }
+  },
+  "settings": {
+    "documentTitle": "Настройки",
+    "logout": "Выйти из системы",
+    "tabs": {
+      "businessCard": "Визитка",
+      "safety": "Безопасность",
+      "notifications": "Уведомления",
+      "employees": "Сотрудники",
+      "actionLog": "Журнал действий",
+      "documentation": "Документы"
+    },
+    "safety": {
+      "email": "Почта",
+      "password": "Пароль",
+      "changeMail": "Для смены почты обратитесь к администратору",
+      "changePassword": "Для смены пароля на вашу почту будет отправлен код подтверждения",
+      "buttonPassChange": "Изменить"
+    },
+    "notifications": {
+      "title": "Типы уведомлений",
+      "checkBoxEmail": "Дублировать на почту",
+      "apiResponse": {
+        "deadline-exam": "Крайний срок экзамена",
+        "expired-exam": "Экзамен с подтверждением срока действия",
+        "deadline-stage": "Стадия крайнего срока",
+        "expired-stage": "Просроченная стадия",
+        "deadline-task": "Задача-срок"
+      }
+    },
+    "documentation": {
+      "title": "Важные документы",
+      "use": "Правила использования",
+      "policy": "Политика конфиденциальности",
+      "service": "Условия оказания услуг",
+      "privacyPolicy": "Privacy Policy",
+      "termsofUse": "Terms of Use",
+      "termsOfService": "Terms of Service",
+      "contacts": "Контакты"
+    }
+  },
+  "select": {
+    "notFound": "Ничего не найдено"
+  },
+  "button": {
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "submit": "Подтвердить",
+    "add": "Добавить",
+    "saving": "Сохранение...",
+    "remove": "Удалить",
+    "visible": "Сделать видимым",
+    "hide": "Скрыть"
+  }
+}

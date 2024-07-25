@@ -1,0 +1,681 @@
+{
+  "mainTabs": {
+    "profile": "Profile",
+    "progress": "Progress",
+    "docs": "Documentation",
+    "notification": "Notification"
+  },
+  "blocks": {
+    "blockExams": {
+      "title": "Exams"
+    },
+    "blockEducation": {
+      "title": "Education"
+    }
+  },
+  "signIn": {
+    "enter": "To come in",
+    "or": "or",
+    "google": "Continue with Google",
+    "email": "Continue with mail",
+    "emailEnter": "Enter your email",
+    "passwordEnter": "enter password",
+    "remember": "Remember",
+    "noAcc": "Don't have an account?",
+    "signUp": "Register",
+    "continue": "Continue",
+    "password": "Password",
+    "passwordErr": "Wrong password",
+    "passwordErrMin": "The password must contain at least 8 characters.",
+    "passwordErrMax": "The password must not exceed 64 characters.",
+    "passwordErrConfirm": "Password doesn't match",
+    "passwordErrExist": "This password has already been used before",
+    "codeErr": "Incorrect verification code",
+    "emptyErr": "The field must not be empty",
+    "emailErr": "Mail not found",
+    "return": "Return",
+    "getHelp": "Get help",
+    "otp": {
+      "code": "One-time code for",
+      "enterCode": "Enter the confirmation code that was sent to you at",
+      "codeNotExist": "Didn't receive the code?",
+      "send": "Send again",
+      "useAnother": "Use another method"
+    },
+    "forgotPass": {
+      "title": "Creating a new password",
+      "label": "Forgot password",
+      "codeTitle": "Enter the verification code that was sent to",
+      "code": "Code",
+      "codePlaceholder": "Enter the code from the letter",
+      "passRec": "Create a new password. ",
+      "rec": {
+        "title": "The password must contain:",
+        "min": "Minimum 8 characters",
+        "letter": "Uppercase and lowercase letters",
+        "number": "Number",
+        "symbol": "Special character (!, *, etc.)"
+      },
+      "newPass": "New Password",
+      "createPass": "Create a password",
+      "strongPass": "Password Strength",
+      "confirmPass": "Password confirmation",
+      "passPlaceholderRepeat": "Repeat password",
+      "save": "Save"
+    }
+  },
+  "signUp": {
+    "title": "Registration",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "nameErr": "Enter your name",
+    "lastName": "Surname",
+    "lastNamePlaceholder": "Enter Last Name",
+    "lastNameErr": "Enter last name",
+    "email": "Mail",
+    "emailPlaceholder": "Enter your email address",
+    "emailErr": "Enter your email address",
+    "emailErrExist": "This email address is already in use",
+    "password": "Password",
+    "passwordPlaceholder": "Create a password",
+    "passwordErr": "enter password",
+    "passwordErrMatch": "Password mismatch",
+    "passwordErrLeak": "This password was found on the leaked list and is insecure. ",
+    "passwordErrWeak": "Password strength is too weak",
+    "unknownErr": "Unknown error",
+    "tooManyRequests": "You have sent too many requests to the server. ",
+    "strongPass": "Password Strength",
+    "confirmPass": "Password confirmation",
+    "confirmPassPlaceholder": "Repeat password",
+    "reg": "Register",
+    "haveAcc": "Already have an account?",
+    "enter": "To come in",
+    "allowRef": "By registering, you agree to",
+    "and": "And",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "service": "Terms of Service",
+    "return": "Return",
+    "continue": "Continue",
+
+    "pass": {
+      "title": "The password must contain:",
+      "min": "Minimum 8 characters",
+      "letter": "Uppercase and lowercase letters",
+      "number": "Number",
+      "symbol": "Special character (!, *, etc.)",
+      "streignt": {
+        "weak": "Weak",
+        "okay": "Average",
+        "good": "Good",
+        "strong": "Strong"
+      }
+    },
+    "verification": {
+      "title": "Verification",
+      "desc": "Enter the confirmation code that was sent to you at",
+      "code": "Code",
+      "codePlaceholder": "Enter the code from the letter",
+      "codeErr": "Incorrect verification code"
+    },
+    "greeting": {
+      "title": "Thank you for registering!",
+      "desc": "Congratulations! "
+    }
+  },
+  "createNewPAssword": {
+    "title": "Creating a new password",
+    "placeholderCurrentPassword": "Enter old password",
+    "updatePassErr": "Passwords validation failed"
+  },
+  "changeEmail": {
+    "title": "Mail"
+  },
+  "menuItems": {
+    "tasks": "Tasks",
+    "clients": "Clients",
+    "callendar": "Calendar",
+    "notifications": "Notifications",
+    "team": "Team",
+    "docs": "Quality control",
+    "settings": "Settings",
+    "projects": "Projects",
+    "reports": "Reports"
+  },
+  "widgets": {
+    "ApplicationDetails": {
+      "title": "Admission details",
+      "typeOfService": "Type of service",
+      "countryOfEntry": "Country of entry",
+      "degree": "Degree",
+      "numberOfTopUniversities": "Number of TOP universities",
+      "periodOfCooperation": "Cooperation period",
+      "yearOfEnrollment": "Year of admission",
+      "program": "Program",
+      "numberOfUniversities": "Number of universities",
+      "emptyDatePicker": "Enter date"
+    },
+    "recentDocs": {
+      "title": "Latest documents",
+      "footer": "Go to documents"
+    },
+    "chances": {
+      "none": "Your chances of admission will be shown here",
+      "noneAdmin": "Enter the client's chances",
+      "title": "Chances",
+      "noneClient": "Your chances of admission will be shown here",
+      "tooltip": "The chances of being accepted for a scholarship will increase as you complete the stages, pass exams and your activities."
+    },
+    "progress": {
+      "none": "The progress of the training will be shown here",
+      "active": "Active stages",
+      "title": "Progress",
+      "noneClient": "The progress of the training will be shown here"
+    },
+    "chosenUniversities": {
+      "title": "Selected universities",
+      "add": "Add a university",
+      "none": "Add an educational institution",
+      "top": "TOP",
+      "error": "The field must not be empty"
+    },
+    "exams": {
+      "title": "Exams",
+      "exam": "Exam",
+      "result": "Result",
+      "deadline": "Deadline",
+      "add": "Add an exam",
+      "none": "Add an exam",
+      "error": "The field must not be empty",
+      "errorTwo": "Fill in one of the fields",
+      "other": "Another"
+    },
+    "education": {
+      "title": "Education",
+      "add": "Add an educational institution",
+      "none": "Add an educational institution",
+      "specialization": "Specialization",
+      "GPA": "GPA",
+      "grade": "Grade",
+      "classNum": "Class/course number",
+      "graduation": "Year of ending",
+      "country": "A country",
+      "completed": "Completed",
+      "education": "Educational institution",
+      "error": "The field must not be empty",
+      "errorCor": "Please enter a valid value",
+      "grades": {
+        "Schoolboy": "Schoolboy",
+        "CollegeStudent": "College student",
+        "Bachelor": "Bachelor",
+        "Master": "master",
+        "GraduateStudent": "Graduate student"
+      }
+    },
+    "curator": {
+      "title": "Curator",
+      "none": "Appoint a curator",
+      "add": "Change business card"
+    }
+  },
+  "clients": {
+    "filter": "Filters",
+    "sort": "Sorting",
+    "create": "Create",
+    "upload": "Download",
+    "hidden": "Hide",
+    "all": "show all",
+    "modalRemove": {
+      "desc": "Are you sure you want to delete your account?"
+    },
+    "filters": {
+      "title": "Filters",
+      "close": "Close",
+      "stage": "Stage",
+      "typeOfService": "Type of service",
+      "country": "Country of origin",
+      "grade": "Degree",
+      "search": "Find by name",
+      "yearOfEnrollment": "Year of admission",
+      "countryOfResidence": "Country of Residence",
+      "typeOfClient": "Candidate classification",
+      "exams": "Passed exams",
+      "templateUsed": "Template used",
+      "status": "Stage status",
+      "statusErr": "The status field is required",
+      "сompleted": "Work completed",
+      "statuses": {
+        "InProgress": "In progress",
+        "InProgressUpd": "In progress",
+        "NotStarted": "Not started",
+        "Completed": "Completed",
+        "Skipped": "Skipped"
+      },
+      "examsType": {
+        "TOEFL": "TOEFL",
+        "IELTS": "IELTS",
+        "SAT": "SAT",
+        "GRE": "GRE",
+        "GMAT": "GMAT",
+        "other": "Another"
+      },
+      "sort": {
+        "dateCreate": "Profile creation date",
+        "dateStart": "Work start date",
+        "dateAnd": "Completion date",
+        "countFinish": "Number of completed stages in the work flow",
+        "chance": "Chance to get a scholarship",
+        "year": "Year of admission",
+        "grade": "Entry Degrees"
+      },
+      "countOfUniversities": "Number of universities",
+      "topUniversities": "TOP Universities",
+      "curator": "Curator",
+      "clearFilters": "Reset filters",
+      "applyFilters": "Apply filters"
+    },
+    "table": {
+      "columns": {
+        "client": "Client",
+        "type": "Type",
+        "country": "A country",
+        "year": "Year",
+        "degree": "Degree",
+        "typeOfService": "Type of service",
+        "curator": "Curator",
+        "terms": "Deadlines",
+        "progress": "Progress",
+        "chances": "Chances",
+        "program": "Program",
+        "universities": "Universities",
+        "periodOfСooperation": "Cooperation period"
+      },
+      "defaultValues": {
+        "type": "Not indicated",
+        "country": "Not chosen",
+        "degree": "Not selected",
+        "curator": "Not selected",
+        "progress": "Progress",
+        "chances": "-",
+        "program": "Not indicated",
+        "universities": "-",
+        "periodOfСooperation": "Not selected"
+      },
+      "emptyTable": "No matching results"
+    },
+    "types": {
+      "default": "Not indicated",
+      "questionable": "Not indicated",
+      "strong": "Strong",
+      "weak": "Weak"
+    },
+    "degree": {
+      "bachelor": "Bachelor",
+      "graduateStudent": "Graduate student",
+      "master": "master",
+      "questionable": "Not indicated"
+    },
+    "typeOfService": {
+      "FullSupport": "PS",
+      "Mentoring": "M",
+      "PersonalBrand": "LB"
+    },
+    "typeOfServiceFull": {
+      "FullSupport": "Full Support",
+      "Mentoring": "Mentoring",
+      "PersonalBrand": "Personal Brand"
+    },
+    "countries": {
+      "USA": "USA",
+      "Canada": "Canada",
+      "UnitedKingdom": "Great Britain",
+      "Netherlands": "Netherlands",
+      "Italy": "Italy",
+      "Spain": "Spain",
+      "Portugal": "Portugal",
+      "Germany": "Germany",
+      "Austria": "Austria",
+      "France": "France",
+      "Belgium": "Belgium",
+      "Switzerland": "Switzerland",
+      "NewZealand": "New Zealand",
+      "Australia": "Australia",
+      "Ireland": "Ireland",
+      "Sweden": "Sweden",
+      "Denmark": "Denmark"
+    },
+    "userForm": {
+      "photo": "Photo",
+      "firstName": "Name",
+      "lastName": "Surname",
+      "dateOfBirth": "Date of Birth",
+      "cityOfResidence": "City of residence",
+      "countryOfResidence": "Country of Residence",
+      "citizenship": "Citizenship",
+      "telegram": "Telegram",
+      "mail": "Mail",
+      "typeOfClient": "Candidate classification",
+      "durationOfCallsPlanned": "Calling times (plan)",
+      "durationOfCallsSpent": "Call times (actual)",
+      "emailError": "The value does not match the email format",
+      "uploadFormatError": "Unsupported file format. ",
+      "uploadValueError": "File size exceeds maximum limit (3 MB)"
+    }
+  },
+  "storage": {
+    "table": {
+      "columns": {
+        "name": "Name",
+        "visibility": "Visibility",
+        "status": "Status",
+        "author": "Author",
+        "dateOfCreation": "Date of creation"
+      }
+    },
+    "docTypes": {
+      "WorkingWithCurator": "Working with a curator",
+      "CheckedByTheStrategist": "Checked by the strategist",
+      "ReadyToBeSentToTheClient": "Ready to open to the client",
+      "SentToClient": "Sent to client"
+    },
+    "create": {
+      "catalog": "Catalog",
+      "documentFile": "Document from file",
+      "documentLink": "Document via link"
+    },
+    "modals": {
+      "accessToDocument": "All involved people must have access to the document (or it must have public access)",
+      "visibleCatalog": "Are you sure you want to make the directory invisible to the client?",
+      "visibleHidden": "Are you sure you want to make the document invisible to the client?",
+      "visibleShow": "Are you sure you want to make the document visible to the client?",
+      "modalRemoveDocument": "Are you sure you want to delete the document?",
+      "modalRemoveDirectory": "Are you sure you want to delete the directory?",
+      "modalRenameDirectory": "Rename directory",
+      "modalRenameDocFile": "Rename document",
+      "visibilityForClient": "Visibility for the client"
+    },
+    "formText": {
+      "mainTitle": "Document",
+      "titleFormCreateDirectory": "Create directory",
+      "placeholderCatalogName": "Catalog name",
+      "titleFormVisible": "Visibility for the client",
+      "titleFormCreateDoc": "Create document",
+      "placeholderUploadDoc": "Insert file or click to^upload",
+      "сannotSendFormats": "Cannot send formats",
+      "titleFormDocText": "Description",
+      "titleFormDocTextStatus": "Document status",
+      "titleFormDocType": "Document type",
+      "titleFormDocPriority": "Scan priority",
+      "titleFormDocNotSelected": "Not selected",
+      "titleFormDocOther": "Other options",
+      "titleFormDocStrategist": "Checking Strategist",
+      "checkboxFormDocOther": "Associated with a TOP University",
+      "placeholderNameDoc": "Document's name",
+      "placeholderLinkDoc": "Link to document",
+      "curatorDoc": "Curator",
+      "titleFormDate": "Hiring date",
+      "placeholderDate": "Enter date",
+      "placeholderTime": "Enter time",
+      "placeholderQA": "Quality control",
+      "placeholderApproved": "Approved by Strategist",
+      "dateOfСreation": "date of creation",
+      "author": "Author",
+      "WeSee": "We see",
+      "WeDontSee": "We don't see",
+      "NoInformation": "No information",
+      "emptyErr": "The field must not be empty",
+      "maxCharacters": "Maximum 32 characters",
+      "limitCharacters": "Maximum 2000 characters",
+      "noValidURL": "Invalid URL",
+      "fileNotUpload": "File not uploaded",
+      "uploadProcessing": "Uploaded",
+      "notSupportedFileFormat": "Not supported file format",
+
+      "typeOfDocument": {
+        "NotSelected": "Not selected",
+        "PersonalBrandOneTime": "Personal brand (one-time)",
+        "OddsAssessment": "Odds assessment",
+        "WorkingThroughMotivation": "Working through motivation/personal history",
+        "DevelopmentAdmissionStrategy": "Development of an admission strategy",
+        "SelectionUniversities": "Selection of universities",
+        "LetterRecommendationWriting": "Letter of recommendation (writing)",
+        "LetterRecommendationCorrection": "Letter of recommendation (correction)",
+        "ResumeWriting": "Resume (writing)",
+        "SummaryCorrection": "Summary (correction)",
+        "MotivationLetterWriting": "Motivation letter (writing)",
+        "MotivationLetterCorrection": "Motivation letter (correction)",
+        "SupplementalEssayWriting": "Supplemental Essay (Writing)",
+        "AdditionalEssayCorrection": "Additional essay (correction)",
+        "ListActivities": "List of Activities (Common App)",
+        "FinancialAppeal": "Financial Appeal",
+        "LetterContinuedInterest": "Letter of Continued Interest ",
+        "Other": "Other"
+      },
+      "select": {
+        "scanPriority": "Scan priority",
+        "hiringDate": "Hiring date",
+        "checkingStrategist": "Checking Strategist",
+        "qualityControl": "Quality control",
+        "ApprovedByStrategist": "Approved by Strategist",
+        "NoInformation": "No information",
+        "docs": "Documentation"
+      },
+      "reviewPriority": {
+        "Standard": "Standard",
+        "High": "High"
+      }
+    },
+    "comment": {
+      "title": "Comments on the document",
+      "placeholderCommit": "Leave important information about the document here",
+      "authorCommit": {
+        "administrator": "Administrator",
+        "curator": "Curator",
+        "client": "Client",
+        "strategist": "Strategist",
+        "notFound": "Not specified"
+      }
+    }
+  },
+  "qa": {
+    "header": {
+      "title": "Documentation",
+      "new": "New",
+      "workIhave": "At work I have",
+      "workForOthers": "At work for others",
+      "archive": "Archive"
+    },
+    "table": {
+      "emptyTable": "No matching results",
+      "columns": {
+        "client": "Client",
+        "documentType": "Document type",
+        "curator": "Curator",
+        "strategist": "Strategist",
+        "priority": "A priority",
+        "clientType": "Client Type",
+        "service": "Service",
+        "defaultValues": "Not selected"
+      }
+    },
+    "filters": {
+      "title": "Filters",
+      "close": "Close",
+      "typeOfService": "Type of service",
+      "search": "Enter your name",
+      "titleFormDocType": "Document type",
+      "statuses": {
+        "InProgress": "In progress",
+        "InProgressUpd": "In progress",
+        "NotStarted": "Not started",
+        "Completed": "Completed",
+        "Skipped": "Skipped"
+      },
+      "curator": "Curator",
+      "responsibleStrategist": "Responsible strategist",
+      "client": "Client",
+      "clearFilters": "Reset filters",
+      "applyFilters": "Apply filters"
+    }
+  },
+  "notification": {
+    "header": {
+      "title": "Notifications",
+      "all": "All",
+      "deadline": "Deadline",
+      "docs": "Document",
+      "progress": "Progress",
+      "onlyUnread": "Show only unread"
+    },
+    "table": {
+      "read": "Mark as unread",
+      "notRead": "Mark as read",
+      "important": "IMPORTANT"
+    }
+  },
+  "wipPage": {
+    "title": "Section under development",
+    "description": "For more information, contact your administrator. <br /> or project manager.",
+    "button": "Return to platform"
+  },
+  "workflow": {
+    "empty": {
+      "client": {
+        "desc": {
+          "title": "Admission information will appear here.",
+          "text": "To speed up the process, add educational information and exam results."
+        },
+        "closed": {
+          "title": "Your admission plan is already in preparation.",
+          "text": "Information will begin to appear here as soon as the curator opens the first stage for you."
+        },
+        "tasks": {
+          "title": "Information about your tasks will appear here.",
+          "desc": "Please wait while the supervisor assigns them."
+        },
+        "link": "Questionnaire for Chances Assessment"
+      },
+      "curator": {
+        "title": "The template for the client has not yet been installed. ",
+        "text": "Ask a strategist or administrator to set up a workflow to get started."
+      },
+      "admin": {
+        "placeholder": "Select a template for further work"
+      }
+    },
+    "modal": {
+      "desc": "Are you sure you want to delete the template?",
+      "warning": "This will result in data loss"
+    },
+    "choose": "You choose a template",
+    "attention": "Attention",
+    "allStages": "All stages",
+    "visibilityClient": {
+      "stage": "Stage",
+      "status": "Status",
+      "statuses": {
+        "Completed": "Completed",
+        "InProgress": "In progress",
+        "NotStarted": "Not started",
+        "Skipped": "Skipped"
+      },
+      "modal": {
+        "start": "Are you sure what you want to do",
+        "end": "visible to the client?",
+        "ok": "Make visible"
+      },
+      "deadline": "Stage deadline",
+      "recomendedDate": "recommended date",
+      "recomendedDatePlaceholder": "Enter end date",
+      "day": "day",
+      "dayOne": "day",
+      "days": "days",
+      "save": "Confirm changes",
+      "cancel": "cancel changes"
+    },
+    "tabs": {
+      "materials": "Materials to use"
+    },
+    "materials": {
+      "title": "Materials to use",
+      "files": "Files",
+      "links": "Links to resources",
+      "linkPlaceholder": "Link to resource",
+      "namePlaceholder": "Resource name",
+      "dragAndDropText": "Insert file or click to",
+      "uploadText": "download."
+    },
+    "tasks": {
+      "clientDescription": "Description for the client",
+      "tasks": {
+        "title": "Tasks",
+        "item": "Task",
+        "add": "Add a task"
+      },
+      "form": {
+        "description": "Description",
+        "deadline": "Deadline",
+        "completed": "Done",
+        "deadlineRequired": "The deadline field cannot be empty",
+        "descriptionRequired": "Description field cannot be empty"
+      }
+    },
+    "comments": {
+      "title": "Comments on the stage",
+      "placeholderCommit": "Leave important information about the client’s completion of the stage here"
+    }
+  },
+  "settings": {
+    "documentTitle": "Settings",
+    "logout": "Logout",
+    "tabs": {
+      "businessCard": "Business card",
+      "safety": "Safety",
+      "notifications": "Notifications",
+      "employees": "Employees",
+      "actionLog": "Action log",
+      "documentation": "Documentation"
+    },
+    "safety": {
+      "email": "Mail",
+      "password": "Password",
+      "changeMail": "To change your email, contact your administrator",
+      "changePassword": "A confirmation code will be sent to your email to change your password",
+      "buttonPassChange": "Change"
+    },
+    "notifications": {
+      "title": "Notification types",
+      "checkBoxEmail": "Duplicate by email",
+      "apiResponse": {
+        "deadline-exam": "Exam deadline",
+        "expired-exam": "Expired exam",
+        "deadline-stage": "Deadline stage",
+        "expired-stage": "Overdue stage",
+        "deadline-task": "Task-deadline"
+      }
+    },
+    "documentation": {
+      "title": "Important documents",
+      "use": "Terms of use",
+      "policy": "Privacy Policy",
+      "service": "Terms of service",
+      "privacyPolicy": "Privacy Policy",
+      "termsofUse": "Terms of Use",
+      "termsOfService": "Terms of Service",
+      "contacts ": "Contacts"
+    }
+  },
+  "select": {
+    "notFound": "Nothing found"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Confirm",
+    "add": "Add",
+    "saving": "Preservation...",
+    "remove": "Delete",
+    "visible": "Make visible",
+    "hide": "Hide"
+  }
+}
