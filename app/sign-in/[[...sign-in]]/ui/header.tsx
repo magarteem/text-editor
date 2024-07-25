@@ -5,7 +5,7 @@ import EditFile from "@/public/svg/edit-file.svg";
 
 interface HeaderProps {
   children: React.ReactNode;
-  isSignedIn: boolean | undefined;
+  isSignedIn?: boolean | undefined;
   createNewPAssword?: string;
 }
 
